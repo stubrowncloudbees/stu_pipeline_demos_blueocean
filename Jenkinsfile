@@ -3,11 +3,12 @@ pipeline {
     node {
       label 'mac'
     }
-    tools{
-      maven 'maven'
-    }
+   
     
   }
+   tools{
+      maven 'maven'
+    }
   stages {
     stage('TestStage') {
       steps {
