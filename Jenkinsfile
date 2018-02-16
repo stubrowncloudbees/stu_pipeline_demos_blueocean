@@ -3,6 +3,8 @@ pipeline {
     node {
       label 'mac'
     }
+    tools{
+maven 'maven'
     
   }
   stages {
