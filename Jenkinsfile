@@ -4,7 +4,8 @@ pipeline {
       label 'mac'
     }
     tools{
-maven 'maven'
+      maven 'maven'
+    }
     
   }
   stages {
